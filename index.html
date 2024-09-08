@@ -102,6 +102,25 @@
 				</div>
 			</section>
 			<section id="about">
+				<div class="about-coffee-container">
+					<div class="coffee-header">
+						<div class="coffee-header__buttons coffee-header__button-one"></div>
+						<div class="coffee-header__buttons coffee-header__button-two"></div>
+						<div class="coffee-header__display"></div>
+						<div class="coffee-header__details"></div>
+					</div>
+					<div class="coffee-medium">
+						<div class="coffe-medium__exit"></div>
+						<div class="coffee-medium__arm"></div>
+						<div class="coffee-medium__liquid"></div>
+						<div class="coffee-medium__smoke coffee-medium__smoke-one"></div>
+						<div class="coffee-medium__smoke coffee-medium__smoke-two"></div>
+						<div class="coffee-medium__smoke coffee-medium__smoke-three"></div>
+						<div class="coffee-medium__smoke coffee-medium__smoke-for"></div>
+						<div class="coffee-medium__cup"></div>
+					</div>
+					<div class="coffee-footer"></div>
+				</div>
 				<div class="about-box">
 					<h4>My Story</h4>
 					<p>
@@ -125,65 +144,230 @@
 				</div>
 			</section>
 			<section id="projects">
-				<div>
-					<div id="carouselExampleIndicators" class="carousel slide">
-						<div class="carousel-indicators">
+				<div class="projects-bunpofy">
+					<div class="projects-bunpofy-img">
+						<div id="carouselExampleIndicators" class="carousel slide">
+							<div class="carousel-indicators">
+								<button
+									type="button"
+									data-bs-target="#carouselExampleIndicators"
+									data-bs-slide-to="0"
+									class="active"
+									aria-current="true"
+									aria-label="Slide 1"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#carouselExampleIndicators"
+									data-bs-slide-to="1"
+									aria-label="Slide 2"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#carouselExampleIndicators"
+									data-bs-slide-to="2"
+									aria-label="Slide 3"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#carouselExampleIndicators"
+									data-bs-slide-to="3"
+									aria-label="Slide 4"
+								></button>
+							</div>
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img
+										src="bunpofy1.png"
+										class="d-block w-100"
+										alt="Bunpofy webpage"
+									/>
+								</div>
+								<div class="carousel-item">
+									<img
+										src="bunpofy2.png"
+										class="d-block w-100"
+										alt="Bunpofy webpage"
+									/>
+								</div>
+								<div class="carousel-item">
+									<img
+										src="bunpofy3.png"
+										class="d-block w-100"
+										alt="Bunpofy webpage"
+									/>
+								</div>
+								<div class="carousel-item">
+									<img
+										src="bunpofy4.png"
+										class="d-block w-100"
+										alt="Bunpofy webpage"
+									/>
+								</div>
+							</div>
 							<button
+								class="carousel-control-prev"
 								type="button"
 								data-bs-target="#carouselExampleIndicators"
-								data-bs-slide-to="0"
-								class="active"
-								aria-current="true"
-								aria-label="Slide 1"
-							></button>
+								data-bs-slide="prev"
+							>
+								<span
+									class="carousel-control-prev-icon"
+									aria-hidden="true"
+								></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
 							<button
+								class="carousel-control-next"
 								type="button"
 								data-bs-target="#carouselExampleIndicators"
-								data-bs-slide-to="1"
-								aria-label="Slide 2"
-							></button>
-							<button
-								type="button"
-								data-bs-target="#carouselExampleIndicators"
-								data-bs-slide-to="2"
-								aria-label="Slide 3"
-							></button>
+								data-bs-slide="next"
+							>
+								<span
+									class="carousel-control-next-icon"
+									aria-hidden="true"
+								></span>
+								<span class="visually-hidden">Next</span>
+							</button>
 						</div>
-						<div class="carousel-inner">
-							<div class="carousel-item active">
-								<img src="..." class="d-block w-100" alt="..." />
-							</div>
-							<div class="carousel-item">
-								<img src="..." class="d-block w-100" alt="..." />
-							</div>
-							<div class="carousel-item">
-								<img src="..." class="d-block w-100" alt="..." />
-							</div>
+					</div>
+					<div class="projects-info">
+						<a href="https://www.bunpofy.me/" class="projects-link">
+							<img src="link.png" alt="link icon" />
+							<h4>Bunpofy</h4>
+						</a>
+
+						<h5>Lead Developer | Full-Stack</h5>
+						<p>
+							A ninja-themed educational platform that streamlines English
+							teaching in Japan by integrating interactive tools, games, and
+							textbooks aligned with MEXT (Ministry of Education) standards. The
+							platform also incorporates AI Gemini for enhanced, personalized
+							learning experiences.
+						</p>
+						<div class="projects-languages">
+							<p>HTML</p>
+							<p>CSS</p>
+							<p>Javascript</p>
+							<p>Ruby</p>
+							<p>PostgreSQL</p>
+							<p>Rails</p>
+							<p>Heroku</p>
+							<p>Cloudinary</p>
 						</div>
-						<button
-							class="carousel-control-prev"
-							type="button"
-							data-bs-target="#carouselExampleIndicators"
-							data-bs-slide="prev"
+					</div>
+				</div>
+				<div class="projects-fantasy-fleet">
+					<div class="projects-info">
+						<a
+							href="https://fantasy-fleet-2a6998e79800.herokuapp.com/"
+							class="projects-link"
 						>
-							<span
-								class="carousel-control-prev-icon"
-								aria-hidden="true"
-							></span>
-							<span class="visually-hidden">Previous</span>
-						</button>
-						<button
-							class="carousel-control-next"
-							type="button"
-							data-bs-target="#carouselExampleIndicators"
-							data-bs-slide="next"
-						>
-							<span
-								class="carousel-control-next-icon"
-								aria-hidden="true"
-							></span>
-							<span class="visually-hidden">Next</span>
-						</button>
+							<img src="link.png" alt="link icon" />
+							<h4>Fantasy Fleet</h4>
+						</a>
+						<h5>TechLead | Full-Stack</h5>
+						<p>
+							A web platform that allows users to rent fictional cars from
+							movies, games, and anime, focusing on immersive user experience
+							and fan engagement.
+						</p>
+						<div class="projects-languages">
+							<p>HTML</p>
+							<p>CSS</p>
+							<p>Javascript</p>
+							<p>Ruby</p>
+							<p>PostgreSQL</p>
+							<p>Rails</p>
+							<p>Heroku</p>
+							<p>Cloudinary</p>
+						</div>
+					</div>
+					<div class="projects-fantasy-fleet-img">
+						<div id="carousel-fantasy-fleet" class="carousel slide">
+							<div class="carousel-indicators">
+								<button
+									type="button"
+									data-bs-target="#carousel-fantasy-fleet"
+									data-bs-slide-to="0"
+									class="active"
+									aria-current="true"
+									aria-label="Slide 1"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#carousel-fantasy-fleet"
+									data-bs-slide-to="1"
+									aria-label="Slide 2"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#carousel-fantasy-fleet"
+									data-bs-slide-to="2"
+									aria-label="Slide 3"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#carousel-fantasy-fleet"
+									data-bs-slide-to="3"
+									aria-label="Slide 4"
+								></button>
+							</div>
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img
+										src="fantasy_fleet1.png"
+										class="d-block w-100"
+										alt="Fantasy Fleet webpage"
+									/>
+								</div>
+								<div class="carousel-item">
+									<img
+										src="fantasy_fleet2.png"
+										class="d-block w-100"
+										alt="Fantasy Fleet webpage"
+									/>
+								</div>
+								<div class="carousel-item">
+									<img
+										src="fantasy_fleet3.png"
+										class="d-block w-100"
+										alt="Fantasy Fleet webpage"
+									/>
+								</div>
+								<div class="carousel-item">
+									<img
+										src="fantasy_fleet4.png"
+										class="d-block w-100"
+										alt="Fantasy Fleet webpage"
+									/>
+								</div>
+							</div>
+							<button
+								class="carousel-control-prev"
+								type="button"
+								data-bs-target="#carousel-fantasy-fleets"
+								data-bs-slide="prev"
+							>
+								<span
+									class="carousel-control-prev-icon"
+									aria-hidden="true"
+								></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button
+								class="carousel-control-next"
+								type="button"
+								data-bs-target="#carousel-fantasy-fleet"
+								data-bs-slide="next"
+							>
+								<span
+									class="carousel-control-next-icon"
+									aria-hidden="true"
+								></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
 					</div>
 				</div>
 			</section>
