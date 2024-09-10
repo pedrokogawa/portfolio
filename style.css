@@ -384,7 +384,6 @@ section {
 }
 
 .projects-img {
-	margin-top: 20px;
 	width: 40vw;
 }
 
@@ -439,11 +438,6 @@ section {
 
 .projects-fantasy-fleet h4 {
 	color: #6a5acd;
-}
-
-.projects-img {
-	margin-top: 20px;
-	width: 40vw;
 }
 
 .about-coffee-container {
@@ -780,7 +774,7 @@ section {
 	.profile-about {
 		flex-grow: 0;
 		margin-top: 10vh;
-		margin-bottom: 10vh;
+		margin-bottom: 5vh;
 	}
 
 	#about {
@@ -840,14 +834,26 @@ section {
 	.profile-text {
 		width: 70vw;
 	}
+	.about-box {
+		width: 90vw;
+	}
 	.about-box p {
 		font-size: 14px;
 	}
 	.about-box h4 {
 		font-size: 20px;
 	}
+	.projects-info {
+		width: 90vw;
+	}
+	.projects-img {
+		width: 90vw;
+	}
 	#tech-stack {
 		padding: 8vh;
+	}
+	.tech-stack-img-container {
+		width: 90vw;
 	}
 	#tech-stack img {
 		width: 80px;
@@ -863,7 +869,15 @@ section {
 
 @media only screen and (max-width: 467px) {
 	#tech-stack img {
-		width: 60px;
+		width: 80px;
 		margin: 10px;
 	}
+}
+
+.carousel-indicators [data-bs-target] {
+	width: 1.5vw;
+}
+
+.carousel-indicators {
+	margin-bottom: 1vh;
 }
